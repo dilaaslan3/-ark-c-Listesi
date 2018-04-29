@@ -8,7 +8,7 @@ public class Test {
 	public static void sarkiciGoruntule() {
 		sarkicilar.sarkicilariBastir();
 	}
-	public static void sarkiciEkle() {
+	public static void sarkiciEkle2() {
 		System.out.println("Eklemek istediðiniz þarkýcýnýn ismi: ");
 		String isim = scanner.nextLine();
 		sarkicilar.sarkiciEkle(isim);
@@ -67,7 +67,7 @@ public class Test {
 				sarkiciGoruntule();
 				break;
 			case 2:
-				sarkiciEkle();
+				sarkiciEkle2();
 				break;
 			case 3:
 				sarkiciGuncelle();
